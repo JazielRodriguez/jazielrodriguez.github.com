@@ -2,29 +2,94 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>2da practica de html y css</title>
-    <style>
-        p{
-            color:red;
-        }
-        .red{
-            background-color: aqua;
-            height: 200px;
-            width: 100px;
-        }
-        #boton-pago{
-            color: slateblue;
-            background-color: turquoise;
-        }
-    </style>
+    <title>Los mejores restaurantes de mi cuidad</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.min.css">
 </head>
 <body>
-    <button id="boton-pago">Pagar</button>
-    <div class="red">
-
+    <div class="container"> 
+        <div class="content">
+            <header>
+                <h1 class="title"> Los mejores restaurantes de mi cuidad</h1>
+            </header>
+            <table>
+                <thead>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Ubicacion</th>
+                    <th>Calificaciones</th>
+                    <th>Informacion</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Madero</td>
+                        <td>Blvrd, Tula 118</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                        <td>
+                            <a href="./restaurantes/madero.html">Ver mas</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Sabina Caffe</td>
+                        <td>Blvrd, Tula Iturbe 116</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                        <td>
+                            <a href="./restaurantes/Sabina-Caffe.html">Ver mas</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Tortas de esquites</td>
+                        <td>Moctezuma 201</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                        <td>
+                            <a href="./restaurantes/tortas-de-esquites.html">Ver mas</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Restaurante Polenta</td>
+                        <td>Blvrd,Tula Iturbe 116</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                        <td>
+                            <a href="./restaurantes/polenta.html">Ver mas</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Restaurante Colonial</td>
+                        <td>Av. Sur 27</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                        </td>
+                        <td>
+                            <a href="./restaurantes/colonial.html">Ver mas</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-    <p>
-        Hola mundo
-    </p>
 </body>
 </html>

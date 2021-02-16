@@ -1,0 +1,49 @@
+/*
+ azul-011627 
+blanco-fdfffc
+celeste-2ec4b6
+rojo-e71d36
+amarillo-ff9f1c
+*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{text-transform: capitalize;}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    background: #DBE6F6;  /* respaldo para navegadores antiguos */
+background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ec4b6, #ff9f1c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+.parrafo{
+    line-height: 1.8em;
+    font-weight: 200;
+}
+.red{
+    background-color: rgb(136, 255, 0);
+    height: 200px;
+    width: 100px;
+}
+#boton-pago{
+    color: slateblue;
+    background-color: turquoise;
+}
+td{
+    border:solid 1px;
+}

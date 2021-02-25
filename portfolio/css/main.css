@@ -1,0 +1,26 @@
+/* 
+f6bd60
+f7ede2
+f5cac3
+84a59d
+f28482
+*/
+
+html{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+
+img{
+    border-radius:6px;
+    height:100px;
+    width:100px;
+}
+
+.conocimiento-html{
+    background-color: cyan;
+    width:500px;
+    height: 75px;
+    border-style: solid;
+    border-color:#156e6e;
+}

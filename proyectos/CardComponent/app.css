@@ -1,0 +1,119 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+
+/* Global */
+html {
+    font-size:62.5%;
+}
+body{
+    background-color:hsl(233, 47%, 7%);
+}
+* {
+    margin:0;
+}
+/* Clases */
+h1 {
+    font-family:'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card {
+    display: flex;
+    gap: 15rem;
+    justify-content: space-between;
+    background-color:hsl(244, 38%, 16%);
+    margin:6rem 10rem;
+    border-radius: 1rem;
+}
+.card h1 {
+    color:#fff;
+    margin:5rem 7rem 2rem 4rem;
+}
+.card h1 span {
+    color:hsl(277, 64%, 61%);
+}
+.card p {
+    font-family:'Lexend Deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 1.5rem;
+}
+.hijoflex p {
+    margin:5rem 7rem 2rem 4rem;
+}
+.stats {
+    display: flex;
+    gap: 4rem;
+    margin:8rem 7rem 0 4rem;
+}
+.stats p {
+    color:#fff;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin:0;
+}
+.stats p span {
+    color:hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.imagen {
+    background-color:#8000ff;
+    border-radius: 1rem;
+}
+img {
+    width:100%;
+    height:100%;
+    border-radius: 1rem 1rem 0 0;
+    opacity: .6;
+}
+.footer {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    color:#fff;
+    font-size: 1.6rem;
+}
+.footer a {
+    text-decoration: none;
+    color:#ff6;
+}
+.footer span span {
+    color:hsl(277, 64%, 61%);
+}
+/* Media Querys */
+@media (max-width:375px ) {
+   .card {
+    display: block;
+    background-color:hsl(244, 38%, 16%);
+    margin:6rem 1rem;
+    border-radius: 1rem;
+   }
+   .card h1 {
+        margin:0;
+        padding:2rem 7rem 2rem 4rem;
+   }
+   .card p {
+       text-align: center;
+   }
+   .stats {
+       display: block;
+       text-align: center;
+       margin:2rem 0;
+   }
+   .stats p {
+       margin:2rem 0;
+   }
+   .imagen {
+       width: 100%;
+       border-radius: 1rem;
+   }
+   img{
+       width:100%;
+       border-radius: 1rem;
+   }
+   .footer {
+       margin:0 6rem;
+       text-align: center;
+   }
+}

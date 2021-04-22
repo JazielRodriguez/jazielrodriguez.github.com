@@ -1,0 +1,98 @@
+* {
+    margin:0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background:hsl(0, 0%, 95%)
+}
+h2 {
+    font-size: 2.8rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p {
+    font-size: 1.6rem;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+a {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.contenedor {
+    width:90%;
+    margin:0 auto;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    border-radius: 1rem;
+    box-shadow: -7px 6px 6px 0px rgba(0,0,0,0.27)
+}
+.naranja {
+    background: hsl(31, 77%, 52%);
+    border-radius: 1rem 1rem 0 0;
+    padding-bottom: 2rem;
+}
+.claro {
+    background:hsl(184, 100%, 22%);
+    padding-bottom: 2rem;
+}
+.fuerte {
+    background:hsl(179, 100%, 13%);
+    border-radius:0 0 1rem 1rem;
+    padding-bottom: 2rem;
+}
+.margen-texto {
+    margin:2rem 4rem;
+}
+.btn {
+    background:hsl(0, 0%, 95%);
+    margin-left: 4rem;
+    padding:1rem;
+    border-radius:2rem;
+    font-size: 1.6rem;
+}
+.btn-sedans {
+    color:hsl(31, 77%, 52%);
+}
+.btn-suvs {
+    color:hsl(184, 100%, 22%);
+}
+.btn-luxury {
+    color:hsl(179, 100%, 13%);
+}
+.imagen {
+    margin:2rem 4rem;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    color: #000;
+    text-decoration: underline;
+}
+footer p {
+    color:#000;
+}
+
+@media (min-width: 768px) {
+   .contenedor {
+       display:flex;
+       width: 60%;
+   }
+   .naranja {
+       border-radius: 1rem 0 0 1rem;
+       padding-bottom: 5rem; 
+   }
+   .claro {
+       padding-bottom: 5rem;
+   }
+   .fuerte {
+       border-radius: 0 1rem 1rem 0;
+       padding-bottom: 5rem;
+   }
+   .mq {
+       margin-bottom: 4rem;
+   }
+}
